@@ -8,7 +8,7 @@
 
 - [Chapter 01. 자바를 시작하기 전에](#chapter-01-자바를-시작하기-전에)
 
-- [Chapter 02. 변수 (Variable)](#chapter-02-변수--variable-)
+- [Chapter 02. 변수 (Variable)](#chapter-02-변수-variable)
 
 - [Chapter 03. 연산자 (Operator)](#chapter-03-연산자-operator-)
 
