@@ -24,7 +24,7 @@
 
 - [Chapter 09. Java.lang 패키지와 유용한 클래스](#chapter-09-javalang-패키지와-유용한-클래스)
 
-- [Chapter 10. 날짜와 시간 & 형식화](#chapter-10-날짜와-시간-형식화)
+- [Chapter 10. 날짜와 시간 & 형식화](#chapter-10-날짜와-시간--형식화)
 
 - [Chapter 11. Collections Framework](#chapter-11-collections-framework)
 
