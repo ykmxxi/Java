@@ -46,7 +46,7 @@
 
 ## Chapter 01 자바를 시작하기 전에
 
-- [Chapter 01 노션](https://www.notion.so/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)
+- [Chapter 01 노션]([[https://www.notion.so/Chapter-01-ecfa8698988841b2bbd7f4af836010ab](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab))
 
 ## Chapter 02 변수 (Variable)
 
