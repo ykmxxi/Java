@@ -46,23 +46,23 @@
 
 ## Chapter 01 자바를 시작하기 전에
 
-- [Chapter 01 노션](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)
+- [Chapter 01 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)
 
 ## Chapter 02 변수 (Variable)
 
-
+- [Chapter 02 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-02-variable-30c7f4a1531a447dad8644cadac7a052)
 
 ## Chapter 03 연산자 (Operator)
 
-
+- [Chapter 03 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-03-Operator-ffa0336350f34aa4ad735af0f0fe22ad)
 
 ## Chapter 04 조건문과 반복문
 
-
+- [Chapter 04 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-04-a49c0dc9f62e471f82ac6ae6240f7cdb)
 
 ## Chapter 05 배열 (Array)
 
-
+- [Chapter 05 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-05-array-e5436a1d470f47eb97dc4898ba9304e5)
 
 ## Chapter 06 객체지향 프로그래밍 I
 
