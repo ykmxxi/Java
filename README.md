@@ -66,7 +66,7 @@
 
 ## Chapter 06 객체지향 프로그래밍 I
 
-
+- [Chapter 06 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-06-1-2485b8e6e244430abf0fd23d44d75589)
 
 ## Chapter 07 객체지향 프로그래밍 II
 
