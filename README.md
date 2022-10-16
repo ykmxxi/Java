@@ -87,16 +87,23 @@
 ## Chapter 06 객체지향 프로그래밍 I
 
 - [Chapter 06 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-06-1-2485b8e6e244430abf0fd23d44d75589)
+  
   1. 객체지향언어
+  
   2. 클래스와 객체
+  
   3. 변수와 메서드
+  
   4. 오버로딩 (overloading)
-  5. 생성자 (Constructor)
-  6. 변수의 초기화
+  
+  1. 생성자 (Constructor)
+  2. 변수의 초기화
 
 ## Chapter 07 객체지향 프로그래밍 II
 
-
+- [Chapter 07 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-07-II-5be6c693bc4241e4a91f909b87ef5aa2)
+  1. 상속 (inheritance)
+  2. 오버라이딩 (overriding)
 
 ## Chapter 08 예외처리 (Exception Handling)
 
