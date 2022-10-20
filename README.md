@@ -1,7 +1,9 @@
 # StandardOfJava
 
+ 깊이 있는 Java 이해를 위해 남궁훈 저자의 "Java의 정석 (3rd Edition)"을 학습하는 Repository 입니다. 학습한 내용을 Notion 에 정리하고 실습 예제들을 올리고 있습니다.
+
 # 자바의 정석
-- [자바의 정석 Github](https://github.com/castello/javajungsuk3)
+- [자바의 정석 저자 Github](https://github.com/castello/javajungsuk3)
 
 ## 목차
 
@@ -104,6 +106,8 @@
 - [Chapter 07 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-07-II-5be6c693bc4241e4a91f909b87ef5aa2)
   1. 상속 (inheritance)
   2. 오버라이딩 (overriding)
+  3. package 와 import
+  4. 제어자 (modifier)
 
 ## Chapter 08 예외처리 (Exception Handling)
 
