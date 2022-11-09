@@ -108,6 +108,8 @@
   2. 오버라이딩 (overriding)
   3. package 와 import
   4. 제어자 (modifier)
+  5. 다형성 (polymorphism)
+  6. 추상클래스 (abstract class)
 
 ## Chapter 08 예외처리 (Exception Handling)
 
