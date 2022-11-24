@@ -9,6 +9,7 @@ abstract class Unit {
 
     /**
      * 지정된 위치로 이동하는 메서드
+     *
      * @param x
      * @param y
      */
@@ -55,6 +56,7 @@ class Dropship extends Unit {
         System.out.println("드랍쉽이 유닛을 내립니다.");
     }
 }
+
 public class StarCraftUnit {
     public static void main(String[] args) {
         List<Unit> group = new ArrayList<>();

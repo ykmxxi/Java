@@ -57,4 +57,3 @@ public class PolyArgumentTest {
         System.out.println("적립된 보너스 포인트는 " + buyer.bonusPoint);
     }
 }
-

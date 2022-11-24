@@ -11,6 +11,7 @@ class Circle {
 
     Point point = new Point();
     int radius;
+
 }
 
 class CircleTest {

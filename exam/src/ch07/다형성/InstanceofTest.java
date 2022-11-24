@@ -1,6 +1,5 @@
 package ch07.다형성;
 
-
 public class InstanceofTest {
 
     void doWork(FireTruck firetruck) {
