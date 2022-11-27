@@ -110,6 +110,7 @@
   4. 제어자 (modifier)
   5. 다형성 (polymorphism)
   6. 추상클래스 (abstract class)
+  7. 인터페이스 (interface)
 
 ## Chapter 08 예외처리 (Exception Handling)
 
