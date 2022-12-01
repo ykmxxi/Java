@@ -49,72 +49,103 @@
 
 ## Chapter 01 자바를 시작하기 전에
 
-- [Chapter 01 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)
-  1. 변수 (variable)
-  2. 변수의 타입
-  3. 기본형 타입 (primitive type)
-  4. 형변환 (casting)
+[Chapter 01 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-01-ecfa8698988841b2bbd7f4af836010ab)
+
+1. 변수 (variable)
+
+2. 변수의 타입
+
+3. 기본형 타입 (primitive type)
+
+4. 형변환 (casting)
 
 ## Chapter 02 변수 (Variable)
 
-- [Chapter 02 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-02-variable-30c7f4a1531a447dad8644cadac7a052)
-  1. 변수 (variable)
-  2. 변수의 타입
-  3. 기본형 타입 (primitive type)
-  4. 형변환 (casting)
+[Chapter 02 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-02-variable-30c7f4a1531a447dad8644cadac7a052)
+
+1. 변수 (variable)
+
+2. 변수의 타입
+
+3. 기본형 타입 (primitive type)
+
+4. 형변환 (casting)
 
 ## Chapter 03 연산자 (Operator)
 
-- [Chapter 03 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-03-Operator-ffa0336350f34aa4ad735af0f0fe22ad)
-  1. 연산자 (Operator)
-  2. 단항 연산자
-  3. 산술 연산자
-  4. 비교 연산자
-  5. 논리 연산자
-  6. 그 외의 연산자들
+[Chapter 03 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-03-Operator-ffa0336350f34aa4ad735af0f0fe22ad)
+
+1. 연산자 (Operator)
+
+2. 단항 연산자
+
+3. 산술 연산자
+
+4. 비교 연산자
+
+5. 논리 연산자
+
+6. 그 외의 연산자들
 
 ## Chapter 04 조건문과 반복문
 
-- [Chapter 04 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-04-a49c0dc9f62e471f82ac6ae6240f7cdb)
-  1. 조건문 (if, switch)
-  2. 반복문 (for, while, do-while)
+[Chapter 04 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-04-a49c0dc9f62e471f82ac6ae6240f7cdb)
+
+1. 조건문 (if, switch)
+
+2. 반복문 (for, while, do-while)
 
 ## Chapter 05 배열 (Array)
 
-- [Chapter 05 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-05-array-e5436a1d470f47eb97dc4898ba9304e5)
-  1. 배열 (array)
-  2. String 배열
-  3. 다차원 배열
+[Chapter 05 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-05-array-e5436a1d470f47eb97dc4898ba9304e5)
+
+1. 배열 (array)
+
+2. String 배열
+
+3. 다차원 배열
 
 ## Chapter 06 객체지향 프로그래밍 I
 
-- [Chapter 06 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-06-1-2485b8e6e244430abf0fd23d44d75589)
-  
-  1. 객체지향언어
-  
-  2. 클래스와 객체
-  
-  3. 변수와 메서드
-  
-  4. 오버로딩 (overloading)
-  
-  1. 생성자 (Constructor)
-  2. 변수의 초기화
+[Chapter 06 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-06-1-2485b8e6e244430abf0fd23d44d75589)
+
+1. 객체지향언어
+
+2. 클래스와 객체
+
+3. 변수와 메서드
+
+4. 오버로딩 (overloading)
+
+5. 생성자 (Constructor)
+
+6. 변수의 초기화
 
 ## Chapter 07 객체지향 프로그래밍 II
 
-- [Chapter 07 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-07-II-5be6c693bc4241e4a91f909b87ef5aa2)
-  1. 상속 (inheritance)
-  2. 오버라이딩 (overriding)
-  3. package 와 import
-  4. 제어자 (modifier)
-  5. 다형성 (polymorphism)
-  6. 추상클래스 (abstract class)
-  7. 인터페이스 (interface)
+[Chapter 07 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-07-II-5be6c693bc4241e4a91f909b87ef5aa2)
+
+1. 상속 (inheritance)
+
+2. 오버라이딩 (overriding)
+
+3. package 와 import
+
+4. 제어자 (modifier)
+
+5. 다형성 (polymorphism)
+
+6. 추상클래스 (abstract class)
+
+7. 인터페이스 (interface)
+
+8. 내부 클래스 (inner class)
 
 ## Chapter 08 예외처리 (Exception Handling)
 
+[Chapter 08 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-08-ea1636427f2248d1bda01728658415b4)
 
+1. 예외처리 (exception handling)
 
 ## Chapter 09 Java.lang 패키지와 유용한 클래스
 
