@@ -152,6 +152,11 @@
 [Chapter 09 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-09-java-lang-6e0cd6e853dd4d778b2add4fb5f196d5)
 
 1. `java.lang` 패키지
+   - Object 클래스
+   - String 클래스
+   - StringBuffer 클래스
+   - Math & Wrapper 클래스
+1. 유용한 클래스
 
 ## Chapter 10 날짜와 시간 & 형식화
 
