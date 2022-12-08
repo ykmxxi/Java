@@ -176,7 +176,10 @@
 
 ## Chapter 14 Lambda & Stream
 
+[Chapter 14 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-14-Lambda-Stream-ec5fa6ace05240b7bef3d7c6b358c5c6)
 
+1. 람다식 (Lambda expression)
+2. 스트림 (Stream)
 
 ## Chapter 15 입출력 (I / O)
 
