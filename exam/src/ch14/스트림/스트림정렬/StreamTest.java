@@ -1,6 +1,7 @@
 package ch14.스트림.스트림정렬;
 
 import java.util.Comparator;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamTest {
@@ -15,8 +16,12 @@ public class StreamTest {
                 new Student("윤", 2, 270)
         );
 
-        studentStream.sorted(Comparator.comparing(Student::getClassNumber)
-                        .thenComparing(Comparator.naturalOrder()))
-                .forEach(System.out::println);
+//        studentStream.sorted(Comparator.comparing(Student::getClassNumber)
+//                        .thenComparing(Comparator.naturalOrder()))
+//                .forEach(System.out::println);
+
+        IntStream allTotalScoreStream = studentStream.mapToInt(Student::getTotalScore);
+        int allTotalScore = allTotalScoreStream.sum();
+        System.out.println("학생 전원의 점수 총계: " + allTotalScore);
     }
 }
