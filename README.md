@@ -164,7 +164,9 @@
 
 ## Chapter 11 Collections Framework
 
+[Chapter 11 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-11-Collections-Framework-85f73f0b728b441d90e31938ac728e47)
 
+1. Collections Framework
 
 ## Chapter 12 Generics, Enums, Annotation
 
