@@ -170,7 +170,11 @@
 
 ## Chapter 12 Generics, Enums, Annotation
 
+[Chapter 12 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-12-3ae1666093ef47e4818745e6aa633f5f)
 
+1. 지네릭스 (Generics)
+2. 열거형 (Enums)
+3. 애너테이션 (Annotation)
 
 ## Chapter 13 쓰레드 (Thread)
 
