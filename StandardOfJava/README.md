@@ -178,7 +178,17 @@
 
 ## Chapter 13 쓰레드 (Thread)
 
+[Chapter 13 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-13-thread-e40f7670d2c64d69879ff53eaa1ae9ff)
 
+1. 프로세스와 쓰레드
+2. 쓰레드의 구현과 실행
+3. `start()`와 `run()`
+4. single-thread와 multi-thread
+5. 쓰레드의 우선순위
+6. 쓰레드 그룹 (thread group)
+7. 데몬 쓰레드 (daemon thread)
+8. 쓰레드의 실행제어
+9. 쓰레드의 동기화
 
 ## Chapter 14 Lambda & Stream
 
