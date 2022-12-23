@@ -22,8 +22,8 @@
 - [Chapter 11. Collections Framework](#chapter-11-collections-framework)
 - [Chapter 12. Generics, Enums, Annotation](#chapter-12-generics-enums-annotation)
 - [Chapter 13. 쓰레드 (Thread)](#chapter-13-쓰레드-thread)
-- [Chapter 14. Lambda & Stream](#chapter-14-lambda-stream)
-- [Chapter 15. 입출력 (I/O)](#chapter-15-입출력-i-o)
+- [Chapter 14. Lambda & Stream](#chapter-14-lambda--stream)
+- [Chapter 15. 입출력 (I/O)](#chapter-15-입출력-io)
 - [Chapter 16. Networking](#chapter-16-networking)
 
 
