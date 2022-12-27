@@ -187,9 +187,16 @@
 [Chapter 15 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-15-I-O-218909942b16418e8d994ebbace54a6a)
 
 1. 자바에서의 입출력
-2. 바이트기반 스트림과 보조스트림
-3. 문자기반 스트림과 보조스트림
-4. 표준입출력과 File
-5. 직렬화 (Serialization)
+2. 바이트기반 스트림
+3. 바이트기반 보조스트림
+4. 문자기반 스트림
+5. 문자기반 보조스트림
+6. 표준입출력과 File
+7. 직렬화 (Serialization)
 
 ## Chapter 16 Networking
+
+[Chapter 16 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter16-Networking-63102ea0a4df4c45848370c2355a44b1)
+
+1. 네트워킹 (Networking)
+2. 소켓 프로그래밍 (Socket Programming)
