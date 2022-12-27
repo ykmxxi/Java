@@ -9,7 +9,7 @@ import java.net.Socket;
 public class TcpIpClient {
     public static void main(String[] args) {
         try {
-            String serverIP = "127.0.0.3";
+            String serverIP = "127.0.0.1";
             System.out.println("서버에 연결중... 서버 IP: " + serverIP);
 
             // 소켓 생성 후 연결 요청
