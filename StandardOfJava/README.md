@@ -145,7 +145,11 @@
 
 ## Chapter 10 날짜와 시간 & 형식화
 
+[Chapter 10 Notion](https://grizzled-eoraptor-f92.notion.site/Chapter-10-54bffa17d50e438fb9ee1f8b3be0d0ea)
 
+1. 날짜와 시간
+2. 형식화 클래스
+3. `java.time` 패키지
 
 ## Chapter 11 Collections Framework
 
