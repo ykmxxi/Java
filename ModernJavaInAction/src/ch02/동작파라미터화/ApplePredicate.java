@@ -1,4 +1,4 @@
-package ch02;
+package ch02.동작파라미터화;
 
 import ch01.Apple;
 
