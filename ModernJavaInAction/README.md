@@ -6,7 +6,9 @@
 
 [Chapter 02. 동작 파라미터화 코드 전달하기](https://ykmxxi.github.io/modern%20java%20in%20action/modernjava-chapter02/)
 
+[Chapter 03. 람다 표현식 part1](https://ykmxxi.github.io/modern%20java%20in%20action/modernjava-chapter03-part1/)
 
+[Chapter 03. 람다 표현식 part2](https://ykmxxi.github.io/modern%20java%20in%20action/modernjava-chapter03-part2/)
 
 
 
