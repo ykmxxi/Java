@@ -1,7 +1,8 @@
-package ch05;
+package ch05.필터링;
 
 import static ch05.Dish.menu;
 
+import ch05.Dish;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
