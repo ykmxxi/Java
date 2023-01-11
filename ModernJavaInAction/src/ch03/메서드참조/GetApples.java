@@ -12,10 +12,10 @@ public class GetApples {
         List<String> colors = Arrays.asList("Green", "Red", "Green", "Red", "Green");
         List<String> countries = Arrays.asList("KR", "KR", "US", "US", "KR");
 
-        List<Apple> apples1 = map1(weights, colors, Apple::new);
-        for (Apple apple : apples1) {
-            System.out.println(apple);
-        }
+//        List<Apple> apples1 = map1(weights, colors, Apple::new);
+//        for (Apple apple : apples1) {
+//            System.out.println(apple);
+//        }
 
         System.out.println();
 
