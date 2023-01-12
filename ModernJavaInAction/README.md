@@ -15,3 +15,5 @@
 ## Part2: 함수형 데이터 처리
 
 [Chapter 04. 스트림 소개](https://ykmxxi.github.io/modern%20java%20in%20action/modernjava-chapter04/)
+
+[Chapter 05. 스트림 활용](https://ykmxxi.github.io/modern%20java%20in%20action/modernjava-chapter05/)
