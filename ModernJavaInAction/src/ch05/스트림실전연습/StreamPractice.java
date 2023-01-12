@@ -110,5 +110,8 @@ public class StreamPractice {
 
         System.out.println(max + "," + min);
         System.out.println(maxTransaction + ", " + minTransaction);
+
+        // 거래가 없을 때 기본 문자열을 사용할 수 있도록발견된 거래가 있으면 문자열로 바꾸는 꼼수를 사용함(예, the Stream is empty)
+        System.out.println(minTransaction.map(String::valueOf).orElse("No transactions found"));
     }
 }
