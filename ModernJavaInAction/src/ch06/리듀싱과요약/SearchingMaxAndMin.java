@@ -1,4 +1,4 @@
-package ch06.최대값과최소값검색;
+package ch06.리듀싱과요약;
 
 import static ch06.Dish.menu;
 
