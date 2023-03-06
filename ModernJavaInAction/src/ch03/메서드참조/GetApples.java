@@ -1,10 +1,11 @@
 package ch03.메서드참조;
 
-import ch01.Apple;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
+
+import ch01.Apple;
 
 public class GetApples {
     public static void main(String[] args) {

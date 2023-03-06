@@ -1,10 +1,8 @@
 package ch06.컬렉터인터페이스;
 
-import static ch06.Dish.menu;
-import static java.util.stream.Collector.Characteristics.CONCURRENT;
-import static java.util.stream.Collector.Characteristics.IDENTITY_FINISH;
+import static ch06.Dish.*;
+import static java.util.stream.Collector.Characteristics.*;
 
-import ch06.Dish;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.EnumSet;
@@ -15,6 +13,8 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
+
+import ch06.Dish;
 
 public class ToListCollector<T> implements Collector<T, List<T>, List<T>> {
 

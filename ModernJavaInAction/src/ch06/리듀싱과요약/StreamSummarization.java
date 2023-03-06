@@ -1,10 +1,11 @@
 package ch06.리듀싱과요약;
 
-import static ch06.Dish.menu;
+import static ch06.Dish.*;
 
-import ch06.Dish;
 import java.util.IntSummaryStatistics;
 import java.util.stream.Collectors;
+
+import ch06.Dish;
 
 public class StreamSummarization {
     public static void main(String[] args) {

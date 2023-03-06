@@ -1,6 +1,6 @@
 package ch04;
 
-import static ch04.Dish.menu;
+import static ch04.Dish.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

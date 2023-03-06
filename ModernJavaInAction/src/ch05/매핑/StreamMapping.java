@@ -1,11 +1,12 @@
 package ch05.매핑;
 
-import static ch05.Dish.menu;
+import static ch05.Dish.*;
 
-import ch05.Dish;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import ch05.Dish;
 
 public class StreamMapping {
     public static void main(String[] args) {

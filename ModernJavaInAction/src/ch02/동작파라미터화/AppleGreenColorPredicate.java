@@ -1,6 +1,6 @@
 package ch02.동작파라미터화;
 
-import static ch02.동작파라미터화.Color.GREEN;
+import static ch02.동작파라미터화.Color.*;
 
 import ch01.Apple;
 

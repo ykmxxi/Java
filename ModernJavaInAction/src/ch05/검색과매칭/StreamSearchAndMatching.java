@@ -1,11 +1,12 @@
 package ch05.검색과매칭;
 
-import static ch05.Dish.menu;
+import static ch05.Dish.*;
 
-import ch05.Dish;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+
+import ch05.Dish;
 
 public class StreamSearchAndMatching {
     public static void main(String[] args) {

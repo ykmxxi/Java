@@ -1,10 +1,11 @@
 package ch03.람다_메서드참조활용;
 
-import static java.util.Comparator.comparing;
+import static java.util.Comparator.*;
 
-import ch01.Apple;
 import java.util.Arrays;
 import java.util.List;
+
+import ch01.Apple;
 
 public class SortingApple {
     public static void main(String[] args) {

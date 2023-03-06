@@ -1,13 +1,14 @@
 package ch06.분할;
 
-import static ch06.Dish.menu;
+import static ch06.Dish.*;
 import static java.util.stream.Collectors.*;
 
-import ch06.Dish;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+import ch06.Dish;
 
 
 public class Partition {

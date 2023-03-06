@@ -1,7 +1,7 @@
 package ch06.커스텀컬렉터;
 
-import static ch06.커스텀컬렉터.PrimeNumberByCustomCollector.isPrime;
-import static java.util.stream.Collector.Characteristics.IDENTITY_FINISH;
+import static ch06.커스텀컬렉터.PrimeNumberByCustomCollector.*;
+import static java.util.stream.Collector.Characteristics.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

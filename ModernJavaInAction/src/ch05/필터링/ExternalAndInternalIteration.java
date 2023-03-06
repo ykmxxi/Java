@@ -1,11 +1,12 @@
 package ch05.필터링;
 
-import static ch05.Dish.menu;
+import static ch05.Dish.*;
 
-import ch05.Dish;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import ch05.Dish;
 
 public class ExternalAndInternalIteration {
     public static void main(String[] args) {

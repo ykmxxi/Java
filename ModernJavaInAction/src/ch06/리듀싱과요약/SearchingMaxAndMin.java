@@ -1,11 +1,12 @@
 package ch06.리듀싱과요약;
 
-import static ch06.Dish.menu;
+import static ch06.Dish.*;
 
-import ch06.Dish;
 import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Collectors;
+
+import ch06.Dish;
 
 public class SearchingMaxAndMin {
     public static void main(String[] args) {

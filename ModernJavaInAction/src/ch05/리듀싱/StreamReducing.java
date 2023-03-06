@@ -1,6 +1,6 @@
 package ch05.리듀싱;
 
-import static ch05.Dish.menu;
+import static ch05.Dish.*;
 
 import java.util.Arrays;
 import java.util.List;

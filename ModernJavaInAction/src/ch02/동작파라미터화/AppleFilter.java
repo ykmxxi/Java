@@ -1,9 +1,10 @@
 package ch02.동작파라미터화;
 
-import ch01.Apple;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import ch01.Apple;
 
 public class AppleFilter {
     public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate p) {

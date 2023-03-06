@@ -1,10 +1,7 @@
 package ch06.그룹화;
 
-import static ch06.Dish.dishTags;
-import static ch06.Dish.menu;
+import static ch06.Dish.*;
 
-import ch06.Dish;
-import ch06.Dish.Type;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
@@ -12,6 +9,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import ch06.Dish;
 
 public class MenuGrouping {
 

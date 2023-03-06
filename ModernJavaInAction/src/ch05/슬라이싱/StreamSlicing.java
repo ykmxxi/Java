@@ -1,12 +1,12 @@
 package ch05.슬라이싱;
 
-import static ch05.Dish.menu;
-import static ch05.Dish.specialMenu;
+import static ch05.Dish.*;
 
-import ch05.Dish;
-import ch05.Dish.Type;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import ch05.Dish;
+import ch05.Dish.*;
 
 public class StreamSlicing {
     public static void main(String[] args) {

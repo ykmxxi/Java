@@ -1,6 +1,6 @@
 package ch06;
 
-import static java.util.Arrays.asList;
+import static java.util.Arrays.*;
 
 import java.util.HashMap;
 import java.util.List;

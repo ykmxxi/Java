@@ -1,9 +1,10 @@
 package ch06.리듀싱과요약;
 
-import static ch06.Dish.menu;
+import static ch06.Dish.*;
+
+import java.util.stream.Collectors;
 
 import ch06.Dish;
-import java.util.stream.Collectors;
 
 public class StreamJoining {
     public static void main(String[] args) {
