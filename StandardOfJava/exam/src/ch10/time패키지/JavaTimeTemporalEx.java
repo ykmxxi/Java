@@ -18,7 +18,6 @@ public class JavaTimeTemporalEx {
 		LocalDate today = LocalDate.now();
 		LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
 		LocalDate afterTomorrow = today.plusDays(2);
-		today.minus
 
 		System.out.println(today);
 		System.out.println(tomorrow);
