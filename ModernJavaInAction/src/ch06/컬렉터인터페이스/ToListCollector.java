@@ -18,49 +18,50 @@ import ch06.Dish;
 
 public class ToListCollector<T> implements Collector<T, List<T>, List<T>> {
 
-    @Override
-    public Supplier<List<T>> supplier() {
-        return ArrayList::new;
-    }
+	public static void main(String[] args) {
+		// 사용자 정의 컬렉터 사용
+		List<Dish> vegetarianDishes = menu.stream()
+			.filter(Dish::isVegetarian)
+			.collect(new ToListCollector<>()); // 기존의 팩토리 메서드인 toList()와 달리 new로 인스턴스화함.
+		System.out.println(vegetarianDishes);
 
-    @Override
-    public BiConsumer<List<T>, T> accumulator() {
-        return List::add;
-    }
+		// 컬렉터를 구현하지 않고 사용자 정의 수집이 가능
+		List<Dish> dishes = menu.stream()
+			.collect(
+				ArrayList::new, // 발행
+				List::add, // 누적
+				List::addAll // 병합
+			);
+		System.out.println(dishes);
+	}
 
-    @Override
-    public Function<List<T>, List<T>> finisher() {
-        // return i -> i;
-        return Function.identity();
-    }
+	@Override
+	public Supplier<List<T>> supplier() {
+		return ArrayList::new;
+	}
 
-    @Override
-    public BinaryOperator<List<T>> combiner() {
-        return (list1, list2) -> {
-            list1.addAll(list2);
-            return list1;
-        };
-    }
+	@Override
+	public BiConsumer<List<T>, T> accumulator() {
+		return List::add;
+	}
 
-    @Override
-    public Set<Characteristics> characteristics() {
-        return Collections.unmodifiableSet(EnumSet.of(IDENTITY_FINISH, CONCURRENT));
-    }
+	@Override
+	public Function<List<T>, List<T>> finisher() {
+		// return i -> i;
+		return Function.identity();
+	}
 
-    public static void main(String[] args) {
-        // 사용자 정의 컬렉터 사용
-        List<Dish> vegetarianDishes = menu.stream()
-                .filter(Dish::isVegetarian)
-                .collect(new ToListCollector<>()); // 기존의 팩토리 메서드인 toList()와 달리 new로 인스턴스화함.
-        System.out.println(vegetarianDishes);
+	@Override
+	public BinaryOperator<List<T>> combiner() {
+		return (list1, list2) -> {
+			list1.addAll(list2);
+			return list1;
+		};
+	}
 
-        // 컬렉터를 구현하지 않고 사용자 정의 수집이 가능
-        List<Dish> dishes = menu.stream()
-                .collect(
-                        ArrayList::new, // 발행
-                        List::add, // 누적
-                        List::addAll // 병합
-                );
-        System.out.println(dishes);
-    }
+	@Override
+	public Set<Characteristics> characteristics() {
+		return Collections.unmodifiableSet(EnumSet.of(IDENTITY_FINISH, CONCURRENT));
+	}
+
 }

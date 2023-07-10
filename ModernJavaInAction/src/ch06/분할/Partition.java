@@ -10,25 +10,26 @@ import java.util.Optional;
 
 import ch06.Dish;
 
-
 public class Partition {
-    public static void main(String[] args) {
-        Map<Boolean, List<Dish>> partitionedMenu = menu.stream()
-                .collect(partitioningBy(Dish::isVegetarian));
 
-        List<Dish> forVegetarianDishes = partitionedMenu.get(true); // 프레디케이트로 필터링한 다음 리스트로 반환해도 똑같음.
-        System.out.println(forVegetarianDishes.toString());
+	public static void main(String[] args) {
+		Map<Boolean, List<Dish>> partitionedMenu = menu.stream()
+			.collect(partitioningBy(Dish::isVegetarian));
 
-        // 컬렉터를 두 번째 인수로 받는 partitioningBy
-        Map<Boolean, Map<Dish.Type, List<Dish>>> vegetarianDishesByType = menu.stream()
-                .collect(partitioningBy(Dish::isVegetarian, groupingBy(Dish::getType)));
-        System.out.println(vegetarianDishesByType.toString());
+		List<Dish> forVegetarianDishes = partitionedMenu.get(true); // 프레디케이트로 필터링한 다음 리스트로 반환해도 똑같음.
+		System.out.println(forVegetarianDishes.toString());
 
-        Map<Boolean, Dish> mostCaloricPartitionedByVegetarian = menu.stream()
-                .collect(partitioningBy(Dish::isVegetarian,
-                        collectingAndThen(maxBy(Comparator.comparingInt(Dish::getCalories)), Optional::get)
-                ));
-        System.out.println(mostCaloricPartitionedByVegetarian);
+		// 컬렉터를 두 번째 인수로 받는 partitioningBy
+		Map<Boolean, Map<Dish.Type, List<Dish>>> vegetarianDishesByType = menu.stream()
+			.collect(partitioningBy(Dish::isVegetarian, groupingBy(Dish::getType)));
+		System.out.println(vegetarianDishesByType.toString());
 
-    }
+		Map<Boolean, Dish> mostCaloricPartitionedByVegetarian = menu.stream()
+			.collect(partitioningBy(Dish::isVegetarian,
+				collectingAndThen(maxBy(Comparator.comparingInt(Dish::getCalories)), Optional::get)
+			));
+		System.out.println(mostCaloricPartitionedByVegetarian);
+
+	}
+
 }

@@ -7,37 +7,39 @@ import java.util.List;
 import ch01.Apple;
 
 public class AppleFilter {
-    public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate p) {
-        List<Apple> result = new ArrayList<>();
-        for (Apple apple : inventory) {
-            if (p.test(apple)) {
-                result.add(apple);
-            }
-        }
-        return result;
-    }
 
-    public static void prettyPrintApple(List<Apple> inventory, AppleFormatter formatter) {
-        for (Apple apple : inventory) {
-            String output = formatter.accept(apple);
-            System.out.println(output);
-        }
-    }
+	public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate p) {
+		List<Apple> result = new ArrayList<>();
+		for (Apple apple : inventory) {
+			if (p.test(apple)) {
+				result.add(apple);
+			}
+		}
+		return result;
+	}
 
-    public static void main(String[] args) {
-        List<Apple> inventory = Arrays.asList(
-                new Apple(160, "RED", "KR"),
-                new Apple(200, "GREEN", "KR"),
-                new Apple(80, "GREEN", "US"),
-                new Apple(130, "GREEN", "KR"),
-                new Apple(50, "RED", "US")
-        );
+	public static void prettyPrintApple(List<Apple> inventory, AppleFormatter formatter) {
+		for (Apple apple : inventory) {
+			String output = formatter.accept(apple);
+			System.out.println(output);
+		}
+	}
 
-        System.out.println(filterApples(inventory, new AppleHeavyWeightPredicate()));
-        System.out.println(filterApples(inventory, new AppleGreenColorPredicate()));
-        System.out.println();
-        prettyPrintApple(inventory, new AppleCountryFormatter());
-        System.out.println();
-        prettyPrintApple(inventory, new AppleFancyFormatter());
-    }
+	public static void main(String[] args) {
+		List<Apple> inventory = Arrays.asList(
+			new Apple(160, "RED", "KR"),
+			new Apple(200, "GREEN", "KR"),
+			new Apple(80, "GREEN", "US"),
+			new Apple(130, "GREEN", "KR"),
+			new Apple(50, "RED", "US")
+		);
+
+		System.out.println(filterApples(inventory, new AppleHeavyWeightPredicate()));
+		System.out.println(filterApples(inventory, new AppleGreenColorPredicate()));
+		System.out.println();
+		prettyPrintApple(inventory, new AppleCountryFormatter());
+		System.out.println();
+		prettyPrintApple(inventory, new AppleFancyFormatter());
+	}
+
 }

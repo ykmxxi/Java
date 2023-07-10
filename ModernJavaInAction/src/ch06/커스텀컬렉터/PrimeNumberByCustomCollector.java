@@ -6,21 +6,21 @@ import java.util.stream.IntStream;
 
 public class PrimeNumberByCustomCollector {
 
-    public static boolean isPrime(List<Integer> primes, Integer candidate) {
-        double candidateRoot = Math.sqrt(candidate);
-        return primes.stream()
-                .takeWhile(i -> i <= candidateRoot)
-                .noneMatch(i -> candidate % i == 0);
-    }
+	public static boolean isPrime(List<Integer> primes, Integer candidate) {
+		double candidateRoot = Math.sqrt(candidate);
+		return primes.stream()
+			.takeWhile(i -> i <= candidateRoot)
+			.noneMatch(i -> candidate % i == 0);
+	}
 
-    public static Map<Boolean, List<Integer>> partitionPrimesWithCustomCollector(int n) {
-        return IntStream.rangeClosed(2, n)
-                .boxed()
-                .collect(new CustomCollector());
-    }
+	public static Map<Boolean, List<Integer>> partitionPrimesWithCustomCollector(int n) {
+		return IntStream.rangeClosed(2, n)
+			.boxed()
+			.collect(new CustomCollector());
+	}
 
-    // takeWhile은 자바 9에서 지원하므로 자바 8에서는 이 기능을 사용할 수 없다.
-    // takeWhile 직접 구현하기
+	// takeWhile은 자바 9에서 지원하므로 자바 8에서는 이 기능을 사용할 수 없다.
+	// takeWhile 직접 구현하기
     /*
     public static <A> List<A> takeWhile(List<A> list, Predicate<A> p) {
         int i = 0;
@@ -34,12 +34,13 @@ public class PrimeNumberByCustomCollector {
     }
      */
 
-    public static void main(String[] args) {
-        List<Integer> primeNumbers = partitionPrimesWithCustomCollector(100).get(true);
-        List<Integer> nonePrimeNumbers = partitionPrimesWithCustomCollector(100).get(false);
+	public static void main(String[] args) {
+		List<Integer> primeNumbers = partitionPrimesWithCustomCollector(100).get(true);
+		List<Integer> nonePrimeNumbers = partitionPrimesWithCustomCollector(100).get(false);
 
-        System.out.println(primeNumbers);
-        System.out.println(nonePrimeNumbers);
+		System.out.println(primeNumbers);
+		System.out.println(nonePrimeNumbers);
 
-    }
+	}
+
 }

@@ -8,69 +8,68 @@ import java.util.Map;
 
 public class Dish {
 
-    private final String name;
-    private final boolean vegetarian;
-    private final int calories;
-    private final Type type;
+	public static final List<Dish> menu = asList(
+		new Dish("pork", false, 800, Type.MEAT),
+		new Dish("beef", false, 700, Type.MEAT),
+		new Dish("chicken", false, 400, Type.MEAT),
+		new Dish("french fries", true, 530, Type.OTHER),
+		new Dish("rice", true, 350, Type.OTHER),
+		new Dish("season fruit", true, 120, Type.OTHER),
+		new Dish("pizza", true, 550, Type.OTHER),
+		new Dish("prawns", false, 400, Type.FISH),
+		new Dish("salmon", false, 450, Type.FISH)
+	);
+	public static final Map<String, List<String>> dishTags = new HashMap<>();
 
-    public Dish(String name, boolean vegetarian, int calories, Type type) {
-        this.name = name;
-        this.vegetarian = vegetarian;
-        this.calories = calories;
-        this.type = type;
-    }
+	static {
+		dishTags.put("pork", asList("greasy", "salty"));
+		dishTags.put("beef", asList("salty", "roasted"));
+		dishTags.put("chicken", asList("fried", "crisp"));
+		dishTags.put("french fries", asList("greasy", "fried"));
+		dishTags.put("rice", asList("light", "natural"));
+		dishTags.put("season fruit", asList("fresh", "natural"));
+		dishTags.put("pizza", asList("tasty", "salty"));
+		dishTags.put("prawns", asList("tasty", "roasted"));
+		dishTags.put("salmon", asList("delicious", "fresh"));
+	}
 
-    public String getName() {
-        return name;
-    }
+	private final String name;
+	private final boolean vegetarian;
+	private final int calories;
+	private final Type type;
 
-    public boolean isVegetarian() {
-        return vegetarian;
-    }
+	public Dish(String name, boolean vegetarian, int calories, Type type) {
+		this.name = name;
+		this.vegetarian = vegetarian;
+		this.calories = calories;
+		this.type = type;
+	}
 
-    public int getCalories() {
-        return calories;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public Type getType() {
-        return type;
-    }
+	public boolean isVegetarian() {
+		return vegetarian;
+	}
 
-    @Override
-    public String toString() {
-        return name;
-    }
+	public int getCalories() {
+		return calories;
+	}
 
-    public enum Type {
-        MEAT,
-        FISH,
-        OTHER
-    }
+	public Type getType() {
+		return type;
+	}
 
-    public static final List<Dish> menu = asList(
-            new Dish("pork", false, 800, Type.MEAT),
-            new Dish("beef", false, 700, Type.MEAT),
-            new Dish("chicken", false, 400, Type.MEAT),
-            new Dish("french fries", true, 530, Type.OTHER),
-            new Dish("rice", true, 350, Type.OTHER),
-            new Dish("season fruit", true, 120, Type.OTHER),
-            new Dish("pizza", true, 550, Type.OTHER),
-            new Dish("prawns", false, 400, Type.FISH),
-            new Dish("salmon", false, 450, Type.FISH)
-    );
+	@Override
+	public String toString() {
+		return name;
+	}
 
-    public static final Map<String, List<String>> dishTags = new HashMap<>();
-
-    static {
-        dishTags.put("pork", asList("greasy", "salty"));
-        dishTags.put("beef", asList("salty", "roasted"));
-        dishTags.put("chicken", asList("fried", "crisp"));
-        dishTags.put("french fries", asList("greasy", "fried"));
-        dishTags.put("rice", asList("light", "natural"));
-        dishTags.put("season fruit", asList("fresh", "natural"));
-        dishTags.put("pizza", asList("tasty", "salty"));
-        dishTags.put("prawns", asList("tasty", "roasted"));
-        dishTags.put("salmon", asList("delicious", "fresh"));
-    }
+	public enum Type {
+		MEAT,
+		FISH,
+		OTHER
+	}
 
 }

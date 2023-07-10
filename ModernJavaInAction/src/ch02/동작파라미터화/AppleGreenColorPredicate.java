@@ -6,8 +6,9 @@ import ch01.Apple;
 
 public class AppleGreenColorPredicate implements ApplePredicate {
 
-    @Override
-    public boolean test(Apple apple) {
-        return GREEN.getColor().equals(apple.getColor());
-    }
+	@Override
+	public boolean test(Apple apple) {
+		return GREEN.getColor().equals(apple.getColor());
+	}
+
 }
