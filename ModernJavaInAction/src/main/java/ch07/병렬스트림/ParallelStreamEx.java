@@ -1,5 +1,6 @@
 package ch07.병렬스트림;
 
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class ParallelStreamEx {
@@ -23,6 +24,16 @@ public class ParallelStreamEx {
 			.reduce(0L, Long::sum);
 	}
 
+	/**
+	 * 병렬 합계 연산 최적화
+	 * LongStream.rangeClose() 사용
+	 */
+	public static long rangedSum(long n) {
+		return LongStream.rangeClosed(1, n)
+			.parallel()
+			.reduce(0L, Long::sum);
+	}
+
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
 		long sequentialSum = sequentialSum(100000000L);
@@ -37,6 +48,13 @@ public class ParallelStreamEx {
 		System.out.println("parallelSum = " + parallelSum);
 		resultTime = end - start;
 		System.out.println("resultTime = " + resultTime + "ms"); // 385ms
+
+		start = System.currentTimeMillis();
+		long rangedSum = rangedSum(10000000L);
+		end = System.currentTimeMillis();
+		System.out.println("rangedSum = " + rangedSum);
+		resultTime = end - start;
+		System.out.println("rangedSum parallel resultTime = " + resultTime + "ms"); // 22ms
 	}
 
 }
