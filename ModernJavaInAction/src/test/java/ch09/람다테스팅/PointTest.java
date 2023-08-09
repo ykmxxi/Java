@@ -8,6 +8,8 @@ import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import ch02.리스트형식추상화.Filter;
+
 class PointTest {
 
 	@Test
@@ -37,6 +39,17 @@ class PointTest {
 
 		List<Point> actual = Point.moveAllPointsRightBy(points, 10);
 		assertThat(actual).containsAll(expected);
+	}
+
+	@Test
+	@DisplayName("고차원 함수 테스팅")
+	void higherOrderFunction() {
+		List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+		List<Integer> even = Filter.filter(numbers, i -> i % 2 == 0);
+		List<Integer> smallerThanThree = Filter.filter(numbers, i -> i < 3);
+
+		assertThat(Arrays.asList(2, 4)).containsAll(even);
+		assertThat(Arrays.asList(1, 2)).containsAll(smallerThanThree);
 	}
 
 }
