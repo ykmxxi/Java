@@ -1,5 +1,9 @@
 package ch11.값이없는상황;
 
+import ch11.Car;
+import ch11.Insurance;
+import ch11.Person;
+
 public class NullStateEx {
 
 	// null 안전 시도 1: 깊은 의심, 필요한 곳에 null 체크 코드를 넣는다

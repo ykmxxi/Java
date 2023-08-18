@@ -1,4 +1,4 @@
-package ch11.값이없는상황;
+package ch11;
 
 public class Insurance {
 
